@@ -4,9 +4,6 @@
 [submodule "bundle/nerdtree-git"]
 	path = bundle/nerdtree-git
 	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
-[submodule "bundle/winmanager"]
-	path = bundle/winmanager
-	url = git@github.com:vim-scripts/winmanager.git
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = git@github.com:tomasr/molokai.git

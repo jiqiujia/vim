@@ -41,10 +41,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" Winmanager
-nmap <F4> :WMToggle<CR>
-
-set shell=/bin/sh
 
 set nu
 set autoindent
