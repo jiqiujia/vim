@@ -36,11 +36,12 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+"let g:syntastic_c_include_dirs = [ '../include', 'include' ]
 
 set nu
 set autoindent
@@ -54,4 +55,8 @@ set fileencodings=ucs-bom,utf-8,cp936
 set fileencoding=utf-8
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
+set relativenumber
 
+"make gj/gk move by virtual lines when used without a count
+noremap <silent> <expr> j (v:count==0? 'gj' : 'j')
+noremap <silent> <expr> k (v:count==0? 'gk' : 'k')

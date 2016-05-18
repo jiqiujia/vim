@@ -19,3 +19,6 @@
 [submodule "bundle/vim-easymotion"]
 	path = bundle/vim-easymotion
 	url = git@github.com:easymotion/vim-easymotion.git
+[submodule "bundle/vim-protobuf"]
+	path = bundle/vim-protobuf
+	url = git@github.com:uarun/vim-protobuf.git
